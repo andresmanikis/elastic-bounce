@@ -1,0 +1,51 @@
+.starter-template {
+  padding: 40px 15px;
+  text-align: center;
+}
+
+#floor {
+	background-color: green;
+	width: 800px;
+	height: 50px;
+	margin: 400px auto 0 auto;
+	position: relative;
+}
+
+.ball {
+	width: 80px;
+	height: 80px;
+	border-radius: 40px;
+	position: absolute;
+	font-size: 30px;
+	text-align: center;
+	padding-top: 18px;
+	color: white;
+	z-index: -1;
+}
+
+#floor .ball:nth-child(1) {
+	background-color: orange;
+	left: 40px;
+}
+
+#floor .ball:nth-child(2) {
+	background-color: red;
+	left: 200px;
+}
+
+#floor .ball:nth-child(3) {
+	background-color: yellow;
+	left: 360px;
+	color: grey;
+}
+
+#floor .ball:nth-child(4) {
+	background-color: blue;
+	left: 520px;
+}
+
+#floor .ball:nth-child(5) {
+	background-color: pink;
+	left: 680px;
+	color: grey;
+}
