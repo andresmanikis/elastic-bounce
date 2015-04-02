@@ -1,5 +1,3 @@
-const FPS = 60;
-
 function SimulationManager() {
 	this.balls = [new Ball(1.1), new Ball(0.7), new Ball(1.0), new Ball(0.8), new Ball(0.9)];
 	this.running = false;

@@ -1,4 +1,4 @@
-const FPS = 60;
+var FPS = 60;
 var interval = null;
 var balls = null;
 var running = false;
